@@ -1,0 +1,8 @@
+# 手动维护的更新项：名称<TAB>源(reg/dev)<TAB>匹配<TAB>已知最新版本(可空)<TAB>网址<TAB>图标路径(可空,支持通配符)
+Intel 显卡驱动	dev	Intel\(R\) Graphics	32.0.101.9150	https://www.intel.cn/content/www/cn/zh/download/785597/856530/intel-arc-graphics-windows.html	C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_*\IntelDisplayUMService.exe
+火绒安全软件	reg	火绒安全软件		https://www.huorong.cn/person	
+坚果云	reg	^坚果云$		https://www.jianguoyun.com/s/downloads	
+Zotero	reg	^Zotero$		https://www.zotero.org/download/	
+PotPlayer	reg	PotPlayer		https://potplayer.daum.net/?lang=zh_CN	
+哔哩哔哩	reg	^哔哩哔哩$		https://app.bilibili.com/	
+MATLAB	reg	MATLAB R		https://www.mathworks.com/downloads/	

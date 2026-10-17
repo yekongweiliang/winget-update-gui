@@ -1,0 +1,14 @@
+# 运行时产物
+gui.log
+tmp/
+job/
+icons/
+
+# 自己加的条目（保留示例文件，忽略本机修改）
+manual-updates.local.tsv
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
