@@ -151,6 +151,9 @@ foreach ($it in $items) {
     if ($all -match 'install technology is different') {
         $state = 'skip'; $note = '需手动'
         W ('提示：' + $it.Name + ' 的安装方式与 winget 清单不一致，winget 无法直接升级。')
+    } elseif ($all -match '请使用发布者提供的方法|method provided by the publisher') {
+        $state = 'skip'; $note = '需手动'
+        W ('提示：' + $it.Name + ' 的清单不允许 winget 升级，只能走发布者的更新方式。')
     } elseif ($out -match 'Successfully installed|已成功安装') {
         $state = 'ok'; $note = '已完成'
     } elseif ($out -match 'No applicable upgrade|No newer package|没有可用的升级|已是最新') {

@@ -699,7 +699,7 @@ function Finish-Reading {
     $text = Read-TextAuto $script:oFile
     $rows = @(Parse-UpgradeTable $text)
     # 排除自带更新器的项目（winget 无法升级，且会误报失败）
-    $rows = @($rows | Where-Object { $_.Id -notmatch '^Microsoft\.Edge' -and $_.Id -notmatch 'EdgeWebView2' })
+    $rows = @($rows | Where-Object { $_.Id -notmatch '^Microsoft\.Edge' -and $_.Id -notmatch 'EdgeWebView2' -and $_.Id -notmatch '^Anaconda\.' })
     $grid.Rows.Clear()
     $i = 0
     foreach ($r in $rows) {

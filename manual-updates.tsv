@@ -6,3 +6,4 @@ Zotero	reg	^Zotero$		https://www.zotero.org/download/
 PotPlayer	reg	PotPlayer		https://potplayer.daum.net/?lang=zh_CN	
 哔哩哔哩	reg	^哔哩哔哩$		https://app.bilibili.com/	
 MATLAB	reg	MATLAB R		https://www.mathworks.com/downloads/	
+Anaconda3	reg	^Anaconda3		https://www.anaconda.com/download	
